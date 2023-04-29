@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="college_logo.jfif">
+    <title>Admission</title>
+</head>
+<body>
+    <header>
+        <a href="question11_Admission.html"><h1 style="text-align:center;">Admission</h1></a>
+        <a href="question11_home.html"><img src="college_logo.jfif" alt="college photo"></a>
+        <p>
+            <h1>PMC Admission Form</h1>
+        </p>
+    </header>
+    <main>
+        <form action="back.php" method="post">
+            <fieldset>
+                <legend><h3>Admission Form</h3></legend>
+                <p><strong>Field with * sign are compulsary to fill.</strong></p>
+                <div>
+                    <label for="fname">First Name*:</label>
+                    <input type="text" id="fname" name="First Name" required placeholder="First Name">
+                </div>
+                <br>
+                <div>
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" id="mname" name="Middle Name" placeholder="Middle Name">
+                </div>
+                <br>
+                <div>
+                    <label for="fname">Family Name*:</label>
+                    <input type="text" id="fname" required placeholder="Family Name">
+                </div>
+                <br>
+                <div>
+                    <span>Gender*:</span>
+                    <input type="radio" name="gender" id="male" >
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+
+                </div>
+                <br>
+                <div>
+                    <label for="dob">Date of Birth*:</label>
+                    <input type="date" name="DOB" required max="2023-01-01" min="1982-01-01">
+                </div>
+                <br>
+                <div>
+                    <span>Select Department*:</span>
+                    <select name="Department" id="Dept" required>
+                        <option value="Sci">Science</option>
+                        <option value="Arts">Arts</option>
+                        <option value="com">Commerce</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="sub">Select your Subject*:</label>
+                    <select name="Subject" id="sub" required>
+                        <option value="English">English</option>
+                        <option value="Sociology">Sociology</option>
+                        <option value="Csit">BSc.CSIT</option>
+                        <option value="Bsc general">BSC General</option>
+                        <option value="BBA">BBA</option>
+                        <option value="BCA">BCA</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="citizenship front">Citizenship Front*:</label>
+                    <input type="file" required>
+                </div>
+                <br>
+                <div>
+                    <label for="citizenship Back">Citizenship Back*:</label>
+                    <input type="file" required>
+                </div>
+                <br>
+                <div>
+                    <label for="SEE_Mark">SEE Marksheet*:</label>
+                    <input type="file" requied>
+                </div>
+                <br>
+                <div>
+                    <label for="plus_two">+2 Marksheet*:</label>
+                    <input type="file" required>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" required id="rule">
+                    <label for="rule">By submitting this form, you acknowledge that you are solely responsible for any loss or damages incurred as a result of errors made during submission.
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="sumbit Now">
+                    <input type="reset" value="Reset form">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div style="text-align:center;">&copy;Copyright 2023. All rights reversved at PMC</div>
+    </footer>
+</body>
+</html>
