@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Booking</title>
+    <link rel="icon" href="ktm.jpg">
+    <style>
+        .forom{
+            width:50%;
+            margin:auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="question12_home.html"><img src="ktmlogoo.png" alt="ktm" style="width:150px;"></a>
+        <h3 class="forom">Book Your Hotel Now!!!</h3>
+    </header>
+    <main>
+        <form action="#" method="post" class="forom">
+            <fieldset>
+                <legend>Hotel Booking Form</legend>
+                <div>
+                    <label for="name">Name*:</label>
+                    <input type="text" id="name" required placeholder="Enter your full name here">
+                </div>
+                <br>
+                <div>
+                    <label for="Nation">Nationality*:</label>
+                    <input type="text" id="Nation" required placeholder="Nationality">
+                </div>
+                <br>
+                <div>
+                    <label for="passport">Passport Number*:</label>
+                    <input type="text" id="passport" required placeholder="Passport number"
+                    >
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email*:</label>
+                    <input type="email" required placeholder="email here" id="email">
+                </div>
+                <br>
+                <div>
+                    <label for="hotel">Hotel Type*:</label>
+                    <select name="Hotel type" id="hotel" required>
+                        <option value="#">Please select</option>
+                        <option value="Jampa">Hotel Jampa 3 star</option>
+                        <option value="Everest">Everset Boutique 3 star</option>
+                        <option value="kathmandu agantuk">Kathmandu Aagantuk 3 star</option>
+                        <option value="pahan">Pahan Chhen Boutique Hotel 4star</option>
+                        <option value="Arushi">Arushi Boutique Hotel 4star</option>
+                        <option value="Basera">Basera Boutique Hotel 5star</option>
+                        <option value="Marriott">Kathmandu Marriott Hotel 5star</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                   <span>Room type:*</span>
+                   <input type="radio" name="room" id="single" value="single">
+                   <label for="single">Single</label>
+
+                   <input type="radio" name="room" id="double" value="double">
+                   <label for="double">Double</label>
+
+                   <input type="radio" name="room" id="tripple" value="tripple">
+                   <label for="tripple">Tripple</label>
+                </div>
+                <br>
+                <div>
+                    <label for="Number">Number of Guests*:</label>
+                    <input type="number" id="Number">
+                </div>
+                <br>
+                <div>
+                    <label for="checkin">Check In Date*:</label>
+                    <input type="date" id="checkin">
+                </div>
+                <br>
+                <div>
+                    <label for="checkout">Check Out Date*:</label>
+                    <input type="date" id="checkout">
+                </div>
+                <br>
+                <div>
+                    <label for="comment">Comments:</label>
+                    <textarea name="comment"id="cmt" cols="10" rows="5"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="obey" required>
+                    <label for="obey">By submitting this form, you acknowledge that you are solely responsible for any loss or damages incurred as a result of errors made during submission.
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="submit now">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div style="text-align:center;">&copy;Copyright 2023. All rights reserved at b12F_msh</div>
+    </footer>
+</body>
+</html>
